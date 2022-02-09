@@ -46,10 +46,13 @@ function toggle(id) {
 <br>
 <b style="font-size:16px">Code</b> <br><br>
 Differential Privacy<br>
+<a href="https://github.com/google-research/google-research/tree/master/dp_topk">Top-k sequences (ICML 2022 submission)</a> <br>
 <a href="https://github.com/google-research/google-research/tree/master/dp_multiq">Quantiles (ICML 2021 paper)</a> <br>
 <a href="private_medians.zip">Medians (ICML LXAI 2020 paper)</a> <br>
 <br>
 Determinantal Point Processes<br>
+<a href="https://github.com/insuhan/nonsymmetric-dpp-sampling">Non-sym DPP sampling (ICLR 2022 paper)</a> <br>
+<a href="https://github.com/cgartrel/nonsymmetric-DPP-learning/tree/scalable">Non-sym DPP learning and approx-MAP (ICLR 2021 paper)</a> <br>
 <a href="dpp-map.html">DPP approx-MAP (NIPS 2012 paper)</a> <br>
 <a href="https://code.google.com/p/em-for-dpps/">DPP learning via EM (NIPS 2013 paper)</a> <br>
 <br>
@@ -60,7 +63,71 @@ Posterior Regularization<br>
 <br><br><br>
 <b style="font-size:16px">Publications</b> <br>
 
+<br> 2022 <br><br>
+
+<b><a href="https://arxiv.org/pdf/2201.12333.pdf">A Joint Exponential Mechanism for Differentially Private Top-k</a>
+<span class="link"><a onclick="return toggle('bibtex_icml2022')" href="#">[Bibtex]</a></span>
+<div id="bibtex_icml2022" class="bibtex"><pre>
+@inproceedings{gillenwater2022icml,
+  title =       {{A Joint Exponential Mechanism for Differentially Private Top-k}},
+  author =      {Gillenwater, J. and Joseph, M. and Medina, A. and Ribero, M.},
+  booktitle =   {In submission to International Conference on Machine Learning (ICML)},
+  year =        2022,
+}
+</pre></div> <br>
+Jennifer Gillenwater, Matthew Joseph, Andr&eacute;s Mu&ntilde;oz Medina, and M&oacute;nica Ribero.  In submission to International Conference on Machine Learning (ICML), 2022.<br>
+[<a href="https://github.com/google-research/google-research/tree/master/dp_topk">Code</a>] </b> <br><br>
+
+<b><a href="https://arxiv.org/pdf/2201.11603.pdf">Plume: Differential Privacy at Scale</a>
+<span class="link"><a onclick="return toggle('bibtex_usenix2022')" href="#">[Bibtex]</a></span>
+<div id="bibtex_usenix2022" class="bibtex"><pre>
+@inproceedings{kamin2022usenix,
+  title =       {{Plume: Differential Privacy At Scale}},
+  author =      {Amin, K. and Gillenwater, J. and Joseph, M. and Kulesza, A. and Vassilvitskii, S.},
+  booktitle =   {In submission to USENIX Security Symposium},
+  year =        2022,
+}
+</pre></div> <br>
+Kareem Amin, Jennifer Gillenwater, Matthew Joseph, Alex Kulesza, and Sergei Vassilvitskii.  In submission to USENIX Security Symposium, 2022. </b> <br><br>
+
+<b><a href="https://arxiv.org/pdf/2201.08417.pdf">Scalable Sampling for Nonsymmetric Determinantal Point Processes</a>
+<span class="link"><a onclick="return toggle('bibtex_iclr2022')" href="#">[Bibtex]</a></span>
+<div id="bibtex_iclr2022" class="bibtex"><pre>
+@inproceedings{han2022iclr,
+  title =       {{Scalable Sampling for Nonsymmetric Determinantal Point Processes}},
+  author =      {Han, I. and Gartrell, M. and Gillenwater, J. and Dohmatob, E. and Karbasi, A.},
+  booktitle =   {Proc.\ International Conference on Learning Representations (ICLR)},
+  year =        2022,
+}
+</pre></div> <br>
+Insu Han, Mike Gartrell, Jennifer Gillenwater, Elvis Dohmatob, and Amin Karbasi.  International Conference on Learning Representations (ICLR), 2022.<br>
+[<a href="https://github.com/insuhan/nonsymmetric-dpp-sampling">Code</a>] [<a href="https://openreview.net/forum?id=BB4e8Atc1eR">Open Review</a>] </b> <br><br>
+
 <br> 2021 <br><br>
+
+<b><a href="https://openreview.net/pdf?id=CbArlTV4tr">Combining Public and Private Data</a>
+<span class="link"><a onclick="return toggle('bibtex_priml2021b')" href="#">[Bibtex]</a></span>
+<div id="bibtex_priml2021b" class="bibtex"><pre>
+@inproceedings{ferrando2021bpriml,
+  title =       {{Combining Public and Private Data}},
+  author =      {Ferrando, C. and Gillenwater, J. and Kulesza, A.},
+  booktitle =   {Proc.\ Privacy in Machine Learning (PriML) Workshop at Neural Information Processing Systems (NeurIPS)},
+  year =        2021,
+}
+</pre></div> <br>
+Cecila Ferrando, Jennifer Gillenwater, and Alex Kulesza.  Privacy in Machine Learning (PriML) Workshop at Neural Information Processing Systems (NeurIPS), 2021.</b> <br><br>
+
+<b><a href="https://openreview.net/pdf?id=BjBeRB3NqG">A Joint Exponential Mechanism for Differentially Private Top-k Set</a>
+<span class="link"><a onclick="return toggle('bibtex_priml2021a')" href="#">[Bibtex]</a></span>
+<div id="bibtex_priml2021a" class="bibtex"><pre>
+@inproceedings{gillenwater2021apriml,
+  title =       {{A Joint Exponential Mechanism for Differentially Private Top-k Set}},
+  author =      {Gillenwater, J. and Joseph, M. and Medina, A. and Ribero, M.},
+  booktitle =   {Proc.\ Privacy in Machine Learning (PriML) Workshop at Neural Information Processing Systems (NeurIPS)},
+  year =        2021,
+}
+</pre></div> <br>
+Jennifer Gillenwater, Matthew Joseph, Andr&eacute;s Mu&ntilde;oz Medina, and M&oacute;nica Ribero.  Privacy in Machine Learning (PriML) Workshop at Neural Information Processing Systems (NIPS), 2021. </b> <br><br>
 
 <b><a href="https://arxiv.org/pdf/2102.08244.pdf">Differentially Private Quantiles</a>
 <span class="link"><a onclick="return toggle('bibtex_icml2021')" href="#">[Bibtex]</a></span>
